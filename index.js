@@ -4,7 +4,7 @@ const app = express();
 
 const employeeRoutes = require("./routes/employeeRoutes");
 
-const loggerMiddleware = require("./middleware/loggerMiddleware");
+const loggerMiddleware = require("./middleware/loggermiddleware");
 
 
 // Middleware
